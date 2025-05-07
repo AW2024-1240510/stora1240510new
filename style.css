@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body{
+    font-family: serif;
+    text-align: center;
+    
+    
+}
+
+
+#hed{
+    margin: auto;
+    text-align: center;
+}
+
+#head{
+    padding-top: 60px;
+   width: 80%;
+    
+    
+}
+
+main{
+    
+    display: inline-block;
+    
+    
+    
+}
+
+
+#aa{
+    display: inline-block;
+}
+
+#btoom{
+    padding-bottom: 20px;
+}
+
+#center{
+    text-align: left
+}
+#info_main{
+    display: inline-block;
+    padding-left: 35%;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 200%;
+}
+td{
+    border: 1px solid black;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#maru{
+    width: 80px;
+    text-align: center;
+}
+
+#news_main{
+    width: 500px;
+    background-color: rgb(255, 229, 196);
+    border-radius: 20px;
+    
+    
+}
+
+#news_mains{
+    padding-left: 35%;
+}
+
+
+
+#syoukai_flex{
+    display: flex;
+
+}
+
+#left{
+    margin-right: 60px;
+}
+
+#left_kai{
+    flex-wrap: wrap;
+}
+
+#block{
+    width: 250px;
+}
+
+
+@media screen and (max-width: 700px){
+
+    
+
+   
+
+    #head,#car{
+        width: 95%;
+        text-align: center;
+    }
+#head{
+    margin: auto;
+}
+   
+
+
+    #syoukai_flex{
+        display: block;
+        text-align: center;
+    }
+    #main_ruond{
+    font-size: 66%;
+    }
+
+        
+        #cen{
+            text-align:center ;
+        }
+    
+
+        #left{
+            margin: 0px;
+        }
+
+    
+
+    
+
+    
+
+        
+
+
+}
+
+
+
+
+
+
+
+
+
+
